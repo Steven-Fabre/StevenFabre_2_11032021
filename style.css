@@ -17,7 +17,7 @@ body{
     margin: 0;
 }
 main {
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -64,9 +64,10 @@ header {
 }
 .logo{
     position: absolute;
-    left: 3%;
-    width: 150px;
-    height: 100px;
+    left: 50px;
+    top: 50px;
+    width: 100x;
+    height: auto;
 }
 
 #en_cours{
@@ -86,7 +87,7 @@ nav, ul, li{
 #inscription, li > a{
     text-decoration: none;
     color: black;
-    font-size: 1.5em;
+    font-size: 14px;
     padding: 40px;
 }
 
@@ -109,9 +110,10 @@ li > a:focus{
 
 .search_city {
     display: flex;
+    margin: 30px;
     width: 350px;
-    height: 40px;
-    border-radius: 10px;
+    height: 50px;
+    border-radius: 15px;
     border: 1px solid rgb(242,242,242);
 }
 
@@ -134,7 +136,7 @@ li > a:focus{
     display: flex;
     vertical-align: middle;
     background: rgb(242,242,242);
-    border-radius: 10px 0 0 10px;;
+    border-radius: 15px 0 0 15px;;
     color: black;
     padding: 0 10px;
 }
@@ -148,7 +150,7 @@ li > a:focus{
 button {
     color: white;
     background: rgb(0, 100, 250);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     border: 2px solid rgb(0, 100, 250);
     cursor: pointer;
 }
@@ -188,6 +190,11 @@ button {
     align-items: center;
     margin-right: 5px;
     cursor: pointer;
+}
+
+label{
+    
+    font-weight: bold;
 }
 
 .check{
@@ -232,9 +239,8 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
-    font-size: 1.2em;
+    width: 25px;
+    height: 25px;
     border: 2px solid lightgrey;
     border-radius: 50px;
 }
@@ -257,6 +263,10 @@ input[type="checkbox"] {
     border-radius: 30px;
     padding: 10px 20px;
     flex: 3 ;
+}
+
+.accomodations > h1{
+    margin: 40px 0 25px 20px;
 }
 
 .grid_card{
@@ -293,7 +303,7 @@ input[type="checkbox"] {
 }
 
 .fa-star{
-    font-size: 0.9em; 
+    font-size: 14px; 
 }
 
 #showmore{
@@ -311,7 +321,6 @@ input[type="checkbox"] {
     margin: 0 20px;
     padding: 10px;
     flex: 1;
-    max-height: 663px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -369,15 +378,15 @@ input[type="checkbox"] {
     "a b c e"
     "a f c e";
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    height: 600px;
+    grid-template-rows: 35% 15% 15% 35%;
+    height: 500px;
     margin: 25px;
 }
 
 .activities_card{
     position: relative;
     background: white;
-    border-radius: 30px;
+    border-radius: 20px;
     width: auto;
     box-shadow: 3px 3px 9px rgb(0 0 0 / 10%), 3px 3px 9px rgb(0 0 0 / 10%);
     margin: 10px;
@@ -385,13 +394,13 @@ input[type="checkbox"] {
 
 .activities_card >a >img{
     width: 100%;
-    height: 80%;
+    height: 75%;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
 }
 
 .activities1 > a>img, .activities4>a>img  {
-    height: 90%;
+    height: 85%;
 }
 
 .activities2>a>img {
@@ -403,8 +412,11 @@ input[type="checkbox"] {
 }
 
 .activities_card >a> h2 {
-    margin: 5px 0 0 20px;
-    font-size: 1.4em;
+    display: block;
+    height: 500px;
+    font-size: 16px;
+    justify-content: center;
+    margin: 15px;
 }
 
 .activities1 {

@@ -1,7 +1,7 @@
 /*RESPONSIVE DESIGN */
 
 /* FOR TABLET */
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1440px){
     
     
    body {
@@ -98,15 +98,17 @@
     
     .logo{
         position: relative;
+        top: 0;
+        left: 0;
+        margin: 30px;
         width: 130px;
-        margin: 15px;
         order: -1;
     }
 
     #inscription{
         order: -1;
-        font-size: 1.1em;
-        padding: 20;
+        font-size: 20px;
+        padding: 20px;
         align-self: center;
     }
 
@@ -121,6 +123,7 @@
 
     .search{
         width: 100%;
+        margin-top: 20px;
     }
 
     .search> h1{
@@ -165,6 +168,7 @@
    .filters{
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0;
    }
 
    .filters> div{
@@ -178,10 +182,14 @@
    }
 
    #icon_info{
-       font-size: 1em;
-       width: 35px;
-       height: 30px;
-   }
+    font-size: 12px;
+    width: 25px;
+    height: 20px;
+}
+
+.disponibilities {
+    margin-bottom: 30px;
+}
 
    /*RESULTATS*/
    /*POPULAIRE */
@@ -200,6 +208,11 @@
    .accomodations{
        background: none;
        padding: 15px;
+   }
+
+   .accomodations >h1{
+       font-size: 1.4em;
+       margin: 0;
    }
 
    .accomodations_result{
