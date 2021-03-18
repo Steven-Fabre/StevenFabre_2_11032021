@@ -45,16 +45,6 @@ h1,span {
     font-weight: bold;
 }
 
-/* FLECHE HAUT DE PAGE */
-.top {
-    display: none;
-    border: 1px solid rgb(0, 100, 250);
-    border-radius: 50px;
-    margin: 20px auto;
-    padding: 10px;
-    background: rgb(242,242,242);
-    font-weight: bold;
-}
 
 /*NAVIGATION*/
 
