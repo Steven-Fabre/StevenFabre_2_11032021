@@ -15,6 +15,7 @@
 }
 body{
     margin: 0;
+    width: 100%;
 }
 main {
     width: 90%;
@@ -38,8 +39,10 @@ a:visited {
     color: lightgrey;
 }
 
-h1 {
+h1,span {
     margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* FLECHE HAUT DE PAGE */
@@ -66,7 +69,7 @@ header {
     position: absolute;
     left: 50px;
     top: 50px;
-    width: 100x;
+    width: 100px;
     height: auto;
 }
 
@@ -105,7 +108,6 @@ li > a:focus{
 
 .search > h1{
     margin: 5px 0;
-    font-size: 1.7em;
 }
 
 .search_city {
@@ -151,7 +153,7 @@ button {
     color: white;
     background: rgb(0, 100, 250);
     border-radius: 0 15px 15px 0;
-    border: 2px solid rgb(0, 100, 250);
+    border: 2px solid rgb(0, 100, 251);
     cursor: pointer;
 }
 #search_icon {
@@ -214,7 +216,6 @@ label{
 [type="checkbox"]:hover + label{
     transition: all 0.4s;
     transform: scale(1.1);
-    -webkit-filter: brightness(50%);
 }
 
 input[type="checkbox"] {
@@ -277,7 +278,7 @@ input[type="checkbox"] {
 }
 
 .card{
-    border: 5px solid white;
+    border: 5px solid rgb(250, 250, 249);
     background: white;
     border-radius: 10px;
     margin: 10px ;
@@ -342,7 +343,7 @@ input[type="checkbox"] {
 }
 
 .popular_card{
-    border: 5px solid white;
+    border: 5px solid rgb(250, 250, 249);
     background: white;
     border-radius: 10px;
     margin: 15px ;
