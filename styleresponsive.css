@@ -46,9 +46,6 @@
        height: 200px;
    }
 
-   .activities_card >a >img{
-       height: 60%;
-   }
 
    footer {
        display: block;
@@ -219,6 +216,7 @@
 
    .card {
        width: 100%;
+       max-width: fit-content;
        margin: 10px 0;
    }
 
@@ -232,12 +230,6 @@
    .activities_card{
        margin: 10px 0;
        width: 100%;
-   }
-
-   .activities_card>a>h2{
-       font-size: 1em;
-       height: 22px;
-       margin: 20px ;
    }
 
    /*FOOTER*/
