@@ -371,10 +371,11 @@ input[type="checkbox"] {
     "a b c d"
     "a b c e"
     "a f c e";
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 35% 15% 15% 35%;
-    height: 500px;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 180px 55px 55px 160px;
+    height: 550px;
     margin: 25px;
+    gap: 20px 3%;
 }
 
 .activities_card{
@@ -383,7 +384,6 @@ input[type="checkbox"] {
     border-radius: 20px;
     width: auto;
     box-shadow: 3px 3px 9px rgb(0 0 0 / 10%), 3px 3px 9px rgb(0 0 0 / 10%);
-    margin: 20px;
 }
 
 .activities_card > a> h2 {
