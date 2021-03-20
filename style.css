@@ -23,7 +23,7 @@ main {
 }
 
 .fa, strong, #en_cours, i{
-        color: rgb(0,100,250);
+        color: #0065FC;
 }
 
 a{
@@ -64,7 +64,7 @@ header {
 }
 
 #en_cours{
-border-top: 3px solid rgb(0, 100, 250);
+border-top: 3px solid #0065FC;
 }
 
 nav, ul, li{
@@ -85,7 +85,7 @@ nav, ul, li{
 }
 
 li > a:focus{
-    color: rgb(0,100,250);
+    color: #0065FC;
 }
 
 
@@ -141,7 +141,7 @@ li > a:focus{
 
 button {
     color: white;
-    background: rgb(0, 100, 250);
+    background: #0065FC;
     border-radius: 0 15px 15px 0;
     border: 2px solid rgb(0, 100, 251);
     cursor: pointer;
@@ -167,7 +167,7 @@ button {
 }
 
 .filters > div{
-    border: 2px solid lightgray;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
     margin: 0 10px;
     padding: 0 10px 0 0;
@@ -192,7 +192,7 @@ label{
 .check{
     font-size: 1.4em;
     padding: 4px;
-    background: rgb(222, 235, 255);
+    background: #DEEBFF;
     border-radius: 50px;
     display: flex;
     flex-direction: row;
@@ -215,7 +215,7 @@ input[type="checkbox"] {
 [type="checkbox"]:checked + label{
     transition: all 0.4s;
     transform: scale(1.1);
-    color: rgb(0, 100, 250);
+    color: #0065FC;
     filter:hue-rotate(-90deg);
 }
 
@@ -232,7 +232,7 @@ input[type="checkbox"] {
     align-items: center;
     width: 25px;
     height: 25px;
-    border: 2px solid lightgrey;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
 }
 
@@ -250,7 +250,7 @@ input[type="checkbox"] {
     margin: 30px 0 50px 0;
 }
 .accomodations{
-    background: rgb(242,242,242);
+    background: #F2F2F2;
     border-radius: 30px;
     padding: 10px 20px;
     flex: 3 ;
@@ -310,7 +310,7 @@ input[type="checkbox"] {
 /* POPULAIRE */
 
 .popular {
-    background: rgb(242,242,242);
+    background: #F2F2F2;
     border-radius: 30px;
     margin: 0 20px;
     padding: 10px;
@@ -432,7 +432,7 @@ input[type="checkbox"] {
 /* FOOTER */
 
 footer{
-    background: rgb(242,242,242);
+    background: #F2F2F2;
     display: flex;
     justify-content: space-around;
     padding: 40px 0;
