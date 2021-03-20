@@ -237,4 +237,8 @@
    footer{
        padding: 25px;
    }
+
+   footer > div{
+       width: 100%;
+   }
 }
