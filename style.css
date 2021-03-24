@@ -263,7 +263,7 @@ input[type="checkbox"] {
     margin: 40px 0 25px 20px;
 }
 
-.grid_card{
+.flex_card{
     display: flex;
     flex-wrap: wrap;
     flex: 3;
