@@ -35,8 +35,11 @@
     margin: 0;
    }
 
+
    .activities {
+       width: 100%;
        height: auto;
+       align-items: center;
        display: flex;
        flex-direction: column;
    }
@@ -46,28 +49,18 @@
        height: 200px;
    }
 
-
-   footer {
-       display: block;
-       padding: 10px;
-   }
 }
 /*FOR SMARTPHONE */
 @media screen and (max-width: 768px){
 
-    body{
-        width: 100%;
-    }
     
     /*HEADER */
     header {
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0;
         height: auto;
-        width: 100%;
     }
 
     .navigation{
@@ -194,16 +187,12 @@
        border-radius: 0;
    }
 
-   .popular_card{
-       margin: 10px 0;
-   }
-
-
    /*HEBERGEMENT*/
 
    .accomodations{
        background: none;
        padding: 15px;
+       width: 100%;
    }
 
    .accomodations >h1{
@@ -223,8 +212,8 @@
    /*ACTIVITES*/
 
    .activities{
-       margin: auto;
        padding: 0 15px;
+       margin: auto;
    }
 
    .activities_card{
@@ -234,9 +223,10 @@
 
    /*FOOTER*/
 
-   footer{
-       padding: 25px;
-   }
+    footer {
+        flex-direction: column;
+        width: 100%;
+    }   
 
    footer > div{
        width: 100%;
