@@ -265,8 +265,10 @@ input[type="checkbox"] {
     flex: 3 ;
 }
 
-.accomodations > h1{
+.accomodations > h4{
     margin: 40px 0 25px 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .flex_card{
