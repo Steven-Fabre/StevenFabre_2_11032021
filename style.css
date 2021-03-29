@@ -95,13 +95,18 @@ li > a:focus{
 
 
 /*RECHERCHE */
-.search >p{
-    font-size: 16px;
+
+.search, .disponibilities {
+    width: 95%;
+    margin: auto;
+}
+
+.search > h1, .search > p{
     margin: 5px 0;
 }
 
-.search > h1{
-    margin: 5px 0;
+.search >p{
+    font-size: 16px;
 }
 
 .search_city {

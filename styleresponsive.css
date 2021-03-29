@@ -2,7 +2,7 @@
 
 /* FOR TABLET */
 @media screen and (max-width: 1440px){
-    
+ 
     
    body {
        align-self: center;
@@ -51,8 +51,10 @@
 
 }
 /*FOR SMARTPHONE */
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 750px){
+    html, body {
+        overflow-x:hidden;
+    }
     
     /*HEADER */
     header {
@@ -185,40 +187,49 @@
    .popular{
        order: -1;
        border-radius: 0;
+       padding: 0;
+       width: 100%;
+   }
+
+   .popular_card{
+       width: 90%;
    }
 
    /*HEBERGEMENT*/
 
    .accomodations{
        background: none;
-       padding: 15px;
+       padding: 15px 0;
        width: 100%;
    }
 
    .accomodations >h1{
        margin: 0;
+       padding: 15px;
    }
 
    .accomodations_result{
        margin: 0;
    }
 
-   .card {
+   .flex_card{
        width: 100%;
-       max-width: fit-content;
+   }
+
+   .card {
+       width: 90%;
+       max-width: initial;
        margin: 10px 0;
    }
 
    /*ACTIVITES*/
 
    .activities{
-       padding: 0 15px;
        margin: auto;
    }
 
    .activities_card{
        margin: 10px 0;
-       width: 100%;
    }
 
    /*FOOTER*/
